@@ -1,0 +1,39 @@
+.pdf-uploader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Set a max width for better layout */
+    margin: 20px auto; /* Center the uploader on the page */
+}
+
+.pdf-uploader input[type="file"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%; /* Full width for better usability */
+}
+
+.pdf-uploader button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pdf-uploader button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pdf-uploader p {
+    font-size: 14px;
+    color: #333;
+}
